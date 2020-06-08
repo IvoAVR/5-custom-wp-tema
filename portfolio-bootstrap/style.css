@@ -21,10 +21,43 @@ a {
     color: orangered !important;
     font-size: 1.3rem;
 }
-
+.navbar a:hover {
+    color: white !important;
+    transition-duration: .4s;
+}
 /***** header *****/
-
-
+header {
+    background-image: url(img/header.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+header .box {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+header .card {
+    border-radius: 0;
+    border: 3px solid #333;
+    background: aliceblue;
+    opacity: .7;
+}
+header .card-title {
+    color: orangered;
+}
+header .card a {
+    font-size: 1.2rem;
+    background: orangered;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 0;
+}
+header .card a:hover {
+    background: #333;
+    color: white;
+}
 /***** interests *****/
 
 

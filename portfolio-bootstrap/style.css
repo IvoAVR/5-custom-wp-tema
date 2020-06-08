@@ -98,6 +98,22 @@ header .card a:hover {
 }
 
 /***** portfolio *****/
-
+.portfolio {
+    background: lightgray;
+    padding: 2rem;
+}
+.portfolio .col-sm-6 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.portfolio .col-sm-6:hover {
+    opacity: .7;
+}
+.portfolio img {
+    transition: transform 3s ease;
+}
+.portfolio img:hover {
+    transform: scale(1.3);
+}
 
 /***** footer *****/

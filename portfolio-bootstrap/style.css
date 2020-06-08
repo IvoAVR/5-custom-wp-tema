@@ -127,7 +127,7 @@ footer .title-underline {
 }
 footer a {
     font-size: 2.5rem;
-    color: black;
+    color: #333;
     margin: 20px;
 }
 footer a:hover {

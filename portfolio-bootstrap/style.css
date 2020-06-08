@@ -11,7 +11,16 @@ h1, h2, h3, h4, h5, h6 {
 a {
     font-family: 'Kalam', cursive;
 }
-
+.title-underline {
+    width: 10rem;
+    border: 5px solid orangered;
+    margin: 0 auto 50px auto;
+}
+.small-title-underline {
+    width: 5rem;
+    border: 3px solid orangered;
+    margin: 0 auto 20px auto;
+}
 /***** navbar *****/
 .navbar-brand {
     color: white !important;
@@ -59,7 +68,29 @@ header .card a:hover {
     color: white;
 }
 /***** interests *****/
-
+.interests .card {
+    position: relative;
+}
+.interests .corner-text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(255, 69, 0, .8);
+}
+.interests .corner-text p {
+    margin-bottom: 0;
+    padding: 10px;
+    font-weight: 600;
+}
+.interests img {
+    transition: transform 3s ease;
+}
+.interests img:hover {
+    transform: scale(1.3);
+}
+.holder {
+    overflow: hidden;
+}
 
 /***** skills *****/
 

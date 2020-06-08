@@ -117,3 +117,30 @@ header .card a:hover {
 }
 
 /***** footer *****/
+footer {
+    background: orangered;
+}
+footer .title-underline {
+    width: 10rem;
+    border: 5px solid #333;
+    margin: 0 auto 50px auto;
+}
+footer a {
+    font-size: 2.5rem;
+    color: black;
+    margin: 20px;
+}
+footer a:hover {
+    color: white;
+    transition-duration: .7s;
+}
+footer i:hover {
+    animation: footer .7s ease;
+}
+
+@keyframes footer {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+

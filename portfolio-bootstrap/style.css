@@ -93,7 +93,9 @@ header .card a:hover {
 }
 
 /***** skills *****/
-
+.skills i {
+    color: orangered;
+}
 
 /***** portfolio *****/
 

@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
 }
 
-.bg-light {
+nav .bg-light {
     background-color: transparent !important;
 }
 .navbar-brand {
@@ -41,7 +41,23 @@ welcome
 .welcome h3 {
     color: #8bc34a;
 }
-
+.welcome p span {
+    font-weight: bold;
+}
+/*****************
+services
+*****************/
+.services i {
+    color: #8bc34a;
+}
+.services h4 {
+    font-size: 2em;
+}
+.services .underline {
+    background: #8bc34a;;
+    border: 2px solid #8bc34a;
+    width: 20%;
+}
 
 
 

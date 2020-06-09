@@ -83,5 +83,15 @@ experience
     border-radius: 0;
     margin-bottom: 0;
 }
-
+/*****************
+contact
+*****************/
+.contact a {
+    color: lightgray;
+}
+.contact input[type="submit"] {
+    position: relative;
+    top: -2px;
+    left: -6px;
+}
 

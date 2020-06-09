@@ -21,3 +21,6 @@ h1, h2, h3, h4, h5, h6 {
 .nav-link:hover {
     color: #8bc34a !important;
 }
+.carousel-caption {
+    top: 32%;
+}

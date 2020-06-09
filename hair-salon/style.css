@@ -24,3 +24,25 @@ h1, h2, h3, h4, h5, h6 {
 .carousel-caption {
     top: 32%;
 }
+/*****************
+welcome
+*****************/
+.welcome h2 {
+    font-size: 3em;
+}
+.welcome h2 span {
+    color: #8bc34a;
+    font-style: italic;
+    font-weight: bold;
+}
+.welcome a {
+    color: #8bc34a;
+}
+.welcome h3 {
+    color: #8bc34a;
+}
+
+
+
+
+

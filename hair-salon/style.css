@@ -7,3 +7,17 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
 }
+
+.bg-light {
+    background-color: transparent !important;
+}
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+}
+.nav-link {
+    text-transform: uppercase;
+}
+.nav-link:hover {
+    color: #8bc34a !important;
+}

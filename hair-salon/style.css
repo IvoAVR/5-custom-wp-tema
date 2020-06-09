@@ -8,12 +8,16 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
 }
 
-nav .bg-light {
+nav.bg-light {
     background-color: transparent !important;
 }
 .navbar-brand {
     font-family: 'Playfair Display', serif;
     font-size: 2em;
+}
+.navbar-brand:hover {
+    color:  #8bc34a !important;
+    transition: .4s ease;
 }
 .nav-link {
     text-transform: uppercase;
@@ -93,5 +97,11 @@ contact
     position: relative;
     top: -2px;
     left: -6px;
+}
+/*****************
+footer
+*****************/
+footer a {
+    color: white;
 }
 

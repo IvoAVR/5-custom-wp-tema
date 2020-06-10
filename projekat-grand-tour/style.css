@@ -103,7 +103,25 @@
     padding: 3px;
 }
 /* contact */
-
+.contact {
+    color: lightgray;
+}
+.contact a {
+    color: var(--white);
+}
+.contact a:hover {
+    color: var(--blue);
+}
+.contact i {
+    color: var(--gray);
+    position: relative;
+    left: -30px;
+}
+input {
+    background: black;
+    color: white;
+    padding: 5px;
+}
 /* footer */
 
 

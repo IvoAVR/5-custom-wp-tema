@@ -91,8 +91,17 @@
 }
 
 /* destinations */
-.destanations .col-md
-
+.destanations .col-md-3 {
+    position: relative;
+}
+.destinations .stars {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    background: var(--blue);
+    color: var(--white);
+    padding: 3px;
+}
 /* contact */
 
 /* footer */

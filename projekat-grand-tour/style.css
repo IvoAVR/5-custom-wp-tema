@@ -21,9 +21,24 @@
 }
 .nav-link {
     color: var(--white) !important;
+    text-transform: uppercase;
 }
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
     color: var(--gray) !important;
+}
+.carousel-caption {
+    text-align: left;
+    top: 30%;
+}
+.btn-outline-primary {
+    color: var(--white);
+    border-color: var(--white);
+    border-radius: 0;
+}
+.btn-outline-primary:hover {
+    color: var(--blue);
+    background: var(--white);
+    border-color: var(--white);
 }
 /* intro */
 

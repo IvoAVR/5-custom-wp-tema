@@ -52,7 +52,17 @@
     margin-bottom: 20px
 }
 /* plan */
-
+.plan .icons {
+    width: 80px;
+    height: 80px;
+    background: var(--white);
+    margin: auto;
+    border-radius: 50%;
+    color: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* plan */
 

@@ -64,7 +64,23 @@
     align-items: center;
 }
 
-/* plan */
+/* packages */
+.packages .price {
+    position: relative;
+}
+.packages i {
+    color: var(--blue);
+}
+.packages .tag {
+    display: inline-block;
+    background: var(--blue);
+    padding: 5px 10px;
+    color: var(--white);
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+}
+
 
 /* enjoy the trip */
 

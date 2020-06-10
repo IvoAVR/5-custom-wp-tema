@@ -7,6 +7,9 @@
 * {
     box-sizing: border-box;
 }
+.py-5 {
+    padding: 70px 0 !important;
+}
 /* nav and slider - header  */
 .bg-light {
     background: var(--blue) !important;
@@ -41,9 +44,13 @@
     border-color: var(--white);
 }
 /* intro */
-
+/*   nema :)   */
 /* counter */
-
+.counter i {
+    color: var(--blue);
+    font-size: 3em;
+    margin-bottom: 20px
+}
 /* plan */
 
 

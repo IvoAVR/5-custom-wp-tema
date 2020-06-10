@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex grow</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 920px;
+            margin: 30px auto;
+            outline: 3px solid black;
+        }
+        .row {
+            display: flex;
+        }
+        .flex-elemenat {
+            height: 120px;
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .prvi {
+            background: red;
+            flex-grow: 2;
+        }
+        .drugi {
+            background: lightblue;
+            flex-grow: 8;
+        }
+        .treci {
+            background: violet;
+            flex-grow: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="flex-elemenat prvi">Prvi</div>
+            <div class="flex-elemenat drugi">Drugi</div>
+            <div class="flex-elemenat treci">Treci</div>
+        </div>
+    </div>
+</body>
+</html>

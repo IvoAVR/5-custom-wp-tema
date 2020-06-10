@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex shrink</title>
+    <style>
+        .roditelj {
+            border: 2px solid black;
+            display: flex;
+            height: 100px;
+        }
+        .roditelj div {
+/*
+            flex-grow: 1;
+            flex: 1 1 200px;
+*/
+        }
+        .box-1 {
+            background: red;
+            flex: 1 1 300px;
+        }
+        .box-2 {
+            background: blue;
+            flex: 1 5 300px;
+        }
+        .box-3 {
+            background: green;
+            flex: 1 5 300px;
+        }
+        .box-4 {
+            background: orange;
+            flex: 1 5 300px;
+        }
+    </style>
+</head>
+<body>
+    <section class="roditelj">
+        <div class="box-1">Box 1</div>
+        <div class="box-2">Box 2</div>
+        <div class="box-3">Box 3</div>
+        <div class="box-4">Box 4</div>
+    </section>
+</body>
+</html>
